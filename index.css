@@ -1,4 +1,4 @@
-div::nth-child(1)
+#one
 {
 background-color:red;
   color:white;
@@ -6,7 +6,7 @@ background-color:red;
   margin:6%;
   border: 4px solid black;
 }
-div::nth-child(2)
+#two
 {
 background-color:red;
   color:white;
@@ -19,3 +19,15 @@ h1{
   font-family:lucida;
   font-weight:900;
 }
+span{
+color:white;
+  background-color:grey;
+  padding:4%;
+  margin:3%;
+transition:all 0.4s ease-in-out
+}
+span:hover{
+  border-radius:25px;
+  background-color:black;
+}
+
